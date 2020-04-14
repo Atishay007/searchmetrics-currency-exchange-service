@@ -1,4 +1,4 @@
-package com.searchmetrics.currency.exchange.service.controller.service;
+package com.currency.exchange.service.controller.service;
 
 import org.springframework.stereotype.Service;
 
@@ -10,7 +10,7 @@ public interface CurrencyRateCheckerBSI {
 	 * application/javascript, to map the response in Java Object, we have converted
 	 * it into JSON format.
 	 * 
-	 * @return Rate Response.
+	 * @return RateResponse.
 	 */
 	public String getLatestRateResponse();
 
@@ -19,7 +19,7 @@ public interface CurrencyRateCheckerBSI {
 	 * 
 	 * @param startDate
 	 * @param endDate
-	 * @return historical rates
+	 * @return Object of historicalRates
 	 */
 	public Object getHistoricalRatesUsingDateRange(String startDate, String endDate);
 }

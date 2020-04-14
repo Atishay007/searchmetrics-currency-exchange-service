@@ -1,4 +1,4 @@
-package com.searchmetrics.currency.exchange.service.controller.response;
+package com.currency.exchange.service.controller.response;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 
